@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html >
 <head>
@@ -7,7 +6,7 @@
 
 
     <title>CodePen - #7 고정폭 테이블</title>
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width user-scalable=no">
     <style>
         body{
             font-size:12px;
@@ -77,6 +76,7 @@
                 float:left;
                 width:100%; /* 가운데 컬럼의 너비 */
                 margin-right:-100%; /* Y축 배치를 위한 margin 보정 */
+
             }
             nav{
                 float:left;
@@ -90,6 +90,8 @@
                 position:relative;
                 right:-120px; /* X축 배치를 위한 offset 보정 */
             }
+            .w50{width: 50%; border: 1px solid red; box-sizing: border-box; float: left}
+
         }
     </style>
 
@@ -103,8 +105,8 @@
     </header>
     <div class="body">
         <main>
-            <h2>메인 콘텐츠</h2>
-            <div class="table">
+            <!--<h2>메인 콘텐츠</h2>-->
+<!--            <div class="table">
                 <table>
                     <thead>
                     <tr>
@@ -183,8 +185,11 @@
                     </tr>
                     </tbody>
                 </table>
-            </div>
+            </div>-->
+            <div class="w50">ddddddd</div>
+            <div class="w50">ddddddd</div>
         </main>
+
         <nav>
             <h2>네비게이션</h2>
         </nav>
